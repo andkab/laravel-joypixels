@@ -1,0 +1,75 @@
+{
+    "name": "andkab/laravel-joypixels",
+    "type": "library",
+    "description": "Laravel helper for Joypixels, EmojiOne",
+    "keywords": [
+        "ChristofferOK",
+        "LaravelEmojiOne",
+        "laravel",
+        "emoji",
+        "emojione",
+        "joypixels",
+        "LaravelJoyPixels",
+        "rawr",
+        "andkab",
+        "andrew_frost"
+    ],
+    "homepage": "https://github.com/andkab/laravel-joypixels",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Andrew Frost",
+            "email": "andkab2012@gmail.com",
+            "homepage": "https://andkab.best",
+            "role": "Developer"
+        },	
+        {
+            "name": "Kat Hoff",
+            "email": "rawrkats@me.com",
+            "homepage": "https://kat.land",
+            "role": "Developer"
+        },
+        {
+            "name": ":Christoffer Korvald",
+            "email": "korvald@gmail.com",
+            "homepage": "https://christofferok.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.2.5",
+        "joypixels/emoji-toolkit": "^5.5",
+        "illuminate/support": "^7.0"
+    },
+    "suggest": {
+        "joypixels/assets": "If you want to serve the emojione assets yourself"
+    },
+    "require-dev": {
+        "phpunit/phpunit" : "^8.5",
+        "squizlabs/php_codesniffer": "^3.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "andkab\\LaravelJoyPixels\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "andkab\\LaravelJoyPixels\\": "tests"
+        }
+    },
+    "scripts": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "andkab\\LaravelJoyPixels\\LaravelJoyPixelsServiceProvider"
+            ],
+            "aliases": {
+                "LaravelJoyPixels": "andkab\\LaravelJoyPixels\\LaravelJoyPixelsFacade"
+            }
+        }
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
