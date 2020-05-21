@@ -23,7 +23,7 @@ class LaravelJoyPixels
         }
         else {
             // Use the CDN if 'imagePathPNG' config is not set
-            $this->client->imagePathPNG = 'https://cdn.jsdelivr.net/emojione/assets' . '/' . $this->client->emojiVersion . '/png/unicode/' . $this->client->emojiSize . '/';
+            $this->client->imagePathPNG = 'https://cdn.jsdelivr.net/joypixels/assets' . '/' . $this->client->emojiVersion . '/png/unicode/' . $this->client->emojiSize . '/';
         }
 
         // config ascii option added ternary incase option isn't part of config
