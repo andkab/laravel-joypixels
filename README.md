@@ -21,22 +21,6 @@ $ composer require "andkab/laravel-joypixels"
 $ composer update
 ```
 
-__If you are on Laravel 5.4 or lower you need to add the following to your `config/app.php` file:__
-
-Add the ServiceProvider to the providers array in `config/app.php`
-
-``` php
-andkab\LaravelJoyPixels\LaravelJoyPixelsServiceProvider::class,
-```
-
-Add this to the aliases array in `config/app.php`
-
-``` php
-'LaravelJoyPixels' => andkab\LaravelJoyPixels\LaravelJoyPixelsFacade::class,
-```
-
-Config:
-
 ``` bash
 $ php artisan vendor:publish --tag=config --provider="andkab\LaravelJoyPixels\LaravelJoyPixelsServiceProvider"
 ```
