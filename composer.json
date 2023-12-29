@@ -24,7 +24,7 @@
     ],
     "require": {
         "php": "^7.4|^8.0",
-        "joypixels/emoji-toolkit": "^7",
+        "joypixels/emoji-toolkit": "^8",
         "illuminate/support": "^6|^7|^8|^9|^10"
     },
     "suggest": {
