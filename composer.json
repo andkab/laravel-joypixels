@@ -3,14 +3,11 @@
     "type": "library",
     "description": "Laravel helper for Joypixels, EmojiOne",
     "keywords": [
-        "LaravelEmojiOne",
         "laravel",
         "emoji",
         "emojione",
         "joypixels",
-        "LaravelJoyPixels",
-        "andkab",
-        "andrew_frost"
+        "LaravelJoyPixels"
     ],
     "homepage": "https://github.com/andkab/laravel-joypixels",
     "license": "MIT",
@@ -23,9 +20,9 @@
         }
     ],
     "require": {
-        "php": "^7.4|^8.0",
+        "php": "^8.0",
         "joypixels/emoji-toolkit": "^8",
-        "illuminate/support": "^6|^7|^8|^9|^10"
+        "illuminate/support": "^9|^10|^11"
     },
     "suggest": {
         "joypixels/assets": "If you want to serve the emojione assets yourself"
